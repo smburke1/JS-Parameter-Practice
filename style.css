@@ -1,0 +1,46 @@
+h1{
+    font-size: 35px;
+    color: darkslategray;
+    text-align: center;
+  }
+  
+  .container-one {
+    display: flex;
+    flex-direction: row;
+    border: solid 10px black;
+  }
+  
+  #container-one-box-one {
+    background-color: white;
+    height: 300px;
+    width: 50%;
+  }
+  #container-one-box-two {
+    background-color: white;
+    height: 300px;
+    width: 50%;
+  }
+  
+  .container-two {
+    background-color: #404040;
+    height: 80px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: .5s;
+  }
+  
+  #container-two-div {
+    font-size: 28px;
+    color: white;
+    padding-top: 25%;
+    text-align: center;
+    transition-duration: .5s;
+  }
+  
+  .container-two:hover {
+    background-color: black;
+  }
+
+  
