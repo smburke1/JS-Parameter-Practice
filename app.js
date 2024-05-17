@@ -53,3 +53,21 @@ contOneBoxTwo.addEventListener('click', function(){
 }
 
 caseSwitchFunction();
+
+//Basic Loops
+function loopPractice() {
+
+  let loopCount = 5;
+
+  while(loopCount > 0) {
+    console.log("Loopcount is now: " + loopCount);
+    loopCount -= 1;
+  }
+
+  console.log("End of Loop")
+}
+
+//Event that begins loop
+contTwoDiv.addEventListener('click', function(){
+  loopPractice();
+})
