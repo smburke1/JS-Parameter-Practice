@@ -1,3 +1,4 @@
+const headerOne = document.getElementById("h1-container-one");
 const contOneBoxOne = document.getElementById("container-one-box-one");
 const contOneBoxTwo = document.getElementById("container-one-box-two");
 const contTwoDiv = document.getElementById("container-two-div");
@@ -29,3 +30,26 @@ function changeColor(a) {
 }
                                  
 chooseColor();
+
+//Case Switch Practice
+function caseSwitch(myChoice){
+  switch(myChoice) {
+    case "a":
+      headerOne.innerHTML = "Pass";
+      break;
+    case "b":
+      headerOne.innerHTML = "Fail";
+      break;      
+  }
+}
+
+function caseSwitchFunction(){
+contOneBoxOne.addEventListener('click', function(){
+  caseSwitch("a")
+})
+contOneBoxTwo.addEventListener('click', function(){
+  caseSwitch("b")
+})
+}
+
+caseSwitchFunction();
