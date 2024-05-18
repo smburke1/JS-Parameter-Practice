@@ -39,7 +39,10 @@ function caseSwitch(myChoice){
       break;
     case "b":
       headerOne.innerHTML = "Fail";
-      break;      
+      break;     
+    case "c":
+      headerOne.innerHTML = "Restart";
+      break;     
   }
 }
 
@@ -49,6 +52,9 @@ contOneBoxOne.addEventListener('click', function(){
 })
 contOneBoxTwo.addEventListener('click', function(){
   caseSwitch("b")
+})
+contTwoDiv.addEventListener('click', function(){
+  caseSwitch("c")
 })
 }
 
