@@ -1,4 +1,4 @@
-const headerOne = document.getElementById("h1-container-one");
+const headerOne = document.getElementById("h1-container-three");
 const contOneBoxOne = document.getElementById("container-one-box-one");
 const contOneBoxTwo = document.getElementById("container-one-box-two");
 const contTwoDiv = document.getElementById("container-two-div");
@@ -92,3 +92,4 @@ contOneBoxTwo.onclick = function() {
 contTwoDiv.onclick = function() {
   console.log(possibleOutcomes[1]);
 }
+
