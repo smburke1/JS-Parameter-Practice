@@ -1,3 +1,8 @@
+body{
+  background-color: rgb(208, 238, 250);
+  margin: 0%;
+}
+
 h1{
     font-size: 35px;
     color: darkslategray;
@@ -29,6 +34,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     transition-duration: .5s;
+    cursor: pointer;
   }
   
   #container-two-div {
