@@ -63,7 +63,7 @@ caseSwitchFunction();
 //Basic Loops
 function loopPractice() {
 
-  let loopCount = 5;
+  let loopCount = 3;
 
   while(loopCount > 0) {
     console.log("Loopcount is now: " + loopCount);
@@ -77,3 +77,18 @@ function loopPractice() {
 contTwoDiv.addEventListener('click', function(){
   loopPractice();
 })
+
+//Arrays
+
+let colors = ["Red", "Black"];
+let possibleOutcomes = [colors, "No Colors"];
+
+contOneBoxOne.onclick = function() {
+    console.log(possibleOutcomes[0][0]);
+}
+contOneBoxTwo.onclick = function() {
+  console.log(possibleOutcomes[0][1]);
+}
+contTwoDiv.onclick = function() {
+  console.log(possibleOutcomes[1]);
+}
