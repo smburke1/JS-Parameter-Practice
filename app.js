@@ -2,6 +2,8 @@ const headerOne = document.getElementById("h1-container-three");
 const contOneBoxOne = document.getElementById("container-one-box-one");
 const contOneBoxTwo = document.getElementById("container-one-box-two");
 const contTwoDiv = document.getElementById("container-two-div");
+const results = document.getElementById("h1-container-three");
+
 
 //Test
 headerOne.addEventListener("click", function(){
@@ -22,6 +24,7 @@ function changeColor(a) {
   contOneBoxOne.addEventListener("click", function() {
     contOneBoxOne.style.backgroundColor = "red";    
     contOneBoxTwo.style.backgroundColor = "black";
+
   })
     contOneBoxTwo.addEventListener("click", function() {
     contOneBoxOne.style.backgroundColor = "black";    
