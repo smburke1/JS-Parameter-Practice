@@ -44,12 +44,15 @@ function caseSwitch(myChoice){
   switch(myChoice) {
     case "a":
       headerOne.innerHTML = "Pass";
+      results.style.color = "red";
       break;
     case "b":
       headerOne.innerHTML = "Fail";
+      results.style.color = "black";
       break;     
     case "c":
       headerOne.innerHTML = "Restart";
+      results.style.color = "rgb(0, 159, 170)";
       break;     
   }
 }
