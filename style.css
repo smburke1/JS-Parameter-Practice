@@ -25,6 +25,12 @@ h1{
     height: 300px;
     width: 50%;
   }
+  .container-one h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
   
   .container-two {
     background-color: #404040;
