@@ -56,8 +56,8 @@ function caseSwitch(myChoice){
       break;     
     case "c":
       headerOne.innerHTML = "Restart";
-      contOneBoxOne.style.color = "rgb(0, 159, 170)";
-      contOneBoxTwo.style.color = "rgb(0, 159, 170)";
+      contOneBoxOne.style.color = "white";
+      contOneBoxTwo.style.color = "white";
       results.style.color = "rgb(0, 159, 170)";
       break;     
   }
