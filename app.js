@@ -44,6 +44,7 @@ function caseSwitch(myChoice){
   switch(myChoice) {
     case "a":
       headerOne.innerHTML = "Pass";
+      contOneBoxOne.style.color = "black";
       results.style.color = "red";
       break;
     case "b":
