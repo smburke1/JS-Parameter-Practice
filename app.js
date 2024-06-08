@@ -45,14 +45,19 @@ function caseSwitch(myChoice){
     case "a":
       headerOne.innerHTML = "Pass";
       contOneBoxOne.style.color = "black";
+      contOneBoxTwo.style.color = "red";
       results.style.color = "red";
       break;
     case "b":
       headerOne.innerHTML = "Fail";
+      contOneBoxOne.style.color = "red";
+      contOneBoxTwo.style.color = "black";
       results.style.color = "black";
       break;     
     case "c":
       headerOne.innerHTML = "Restart";
+      contOneBoxOne.style.color = "rgb(0, 159, 170)";
+      contOneBoxTwo.style.color = "rgb(0, 159, 170)";
       results.style.color = "rgb(0, 159, 170)";
       break;     
   }
